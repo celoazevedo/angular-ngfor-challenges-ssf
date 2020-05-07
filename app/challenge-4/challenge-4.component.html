@@ -1,3 +1,8 @@
 <h3>Challenge 4</h3>
 <h5> Display all the books and their properties form challenge-4.component.ts</h5>
 
+<div *ngFor=" let book of books" > 
+  <h5> {{book.title}} </h5>
+  <h5> {{book.author}} </h5>
+  <h5> {{book.page}} </h5>
+</div>
