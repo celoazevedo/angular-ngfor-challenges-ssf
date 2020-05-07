@@ -1,0 +1,10 @@
+<h2>ng-If Example </h2> 
+<h4> Note ngif does not have to be use with ngFor. see ng-if-example component for code</h4>
+
+<div *ngFor=" let book of books" >
+ <div *ngIf="book.pages > 200">
+  <h4> {{book.title}}</h4>
+  <h5> {{ book.auther}} </h5>
+  <p> {{book.pages}} </p>
+ </div>
+</div>
